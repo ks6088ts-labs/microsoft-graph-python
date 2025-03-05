@@ -4,7 +4,7 @@
 [![ghcr-release](https://github.com/ks6088ts-labs/microsoft-graph-python/actions/workflows/ghcr-release.yaml/badge.svg)](https://github.com/ks6088ts-labs/microsoft-graph-python/actions/workflows/ghcr-release.yaml)
 [![docs](https://github.com/ks6088ts-labs/microsoft-graph-python/actions/workflows/github-pages.yaml/badge.svg)](https://github.com/ks6088ts-labs/microsoft-graph-python/actions/workflows/github-pages.yaml)
 
-# template-python
+# microsoft-graph-python
 
 This is a template repository for Python
 

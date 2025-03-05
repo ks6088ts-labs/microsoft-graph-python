@@ -1,1 +1,1 @@
-# template-python
+# microsoft-graph-python

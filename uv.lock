@@ -707,7 +707,7 @@ wheels = [
 ]
 
 [[package]]
-name = "template-python"
+name = "microsoft-graph-python"
 version = "0.0.1"
 source = { editable = "." }
 
