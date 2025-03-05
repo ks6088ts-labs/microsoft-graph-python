@@ -98,3 +98,10 @@ docs-serve: ## serve documentation
 
 .PHONY: ci-test-docs
 ci-test-docs: docs ## run CI test for documentation
+
+# ---
+# Jupyter Lab
+# ---
+.PHONY: jupyterlab
+jupyterlab: ## run Jupyter Lab
+	uv run jupyter lab
