@@ -1,0 +1,41 @@
+[project]
+name = "template-python"
+version = "0.0.1"
+description = "A GitHub template repository for Python"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+docs = [
+    "mkdocs-material>=9.5.49",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "coverage>=7.6.10",
+    "pre-commit>=4.0.1",
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+    "ruff>=0.8.4",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+ignore = ["D203"]
+
+[tool.pytest.ini_options]
+addopts = "-ra --cov"
+testpaths = ["tests"]
+pythonpath = ['.']
+
+[tool.coverage.report]
+show_missing = true
