@@ -1,6 +1,6 @@
 import logging
 
-from template_python.core import hello_world
+from microsoft_graph_python.core import hello_world
 
 
 def test_hello_world_verbose(caplog):
